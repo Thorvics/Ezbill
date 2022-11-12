@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EZ Bills</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <img src="img/ezbills.gif" width="150" height="50">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="indexuser.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutuser.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Q&Auser.html">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactususer.html">Contacts</a>
+                    </li>
+                    </a>
+                    </li>
+    
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <a class="btn btn-outline-success" href="login.html" role="button">Logout</a>
+
+                </form>
+    
+    
+            </div>
+        </div>
+    </nav>
+
+    <!-- SECTION TWO WITH ACCORDION START-->
+    <section class="two">
+        <br>
+        <!-- HEADINGS OF FAQS -->
+        <p class="faq_heading text-center">Frequently Asked Questions (FAQS)</p>
+        <p class="text-center fw-bold">We have answers (well, most of the times!)</p>
+
+        <div class="alert alert-success mx-1" role="alert">
+            <p class="text-center m-0">Below you'll find answers to the most common questions you may have on <span class="name_faq_link">EZ Bills</span>
+                If you still can't find the answer you're looking for, just Contact us!</p>
+        </div>
+
+        <!-- HEADINGS OF FAQS -->
+        
+        <!-- ACCORDION START -->
+        <div class="row justify-content-center">
+            <div class="col-md-6 px-0">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item ">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed border" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            How do I get started with EZ Bills?
+                        </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">To get started, you will need to create an account on our website by inputting your basic information such as your email, name, contact number, and password. After submitting, you will receive a verification email immediately.
+                            Before you can proceed to your dashboard, you have to verify the email first! This is to make sure that you have access to the email to receive KYC questions, early access emails, and a lot more.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 px-0">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item ">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed border" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseOne">
+                            How secure is EzBills?
+                        </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">EZbills is a PCI Service Provider Level 1 compliant payment provider. We have been audited by an independent PCI-certified auditor through the most stringent compliance process available in the payments industry.
+                            PCI-DSS (Payment Card Industry Data Security Standard) is a technical and operational standard developed and managed by the PCI Security Standards Council to ensure the protection and security of card information provided by cardholders that are transmitted through card processing transactions.
+                            Ezbills also enforces HSTS which is a web security protocol mechanism that enforces browsers to interact with Ezbills strictly through HTTPS. This ensures encryption of your data, thus protecting you from malicious actors using man in the middle attacks.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-6 px-0">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item ">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed border" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <span class="acc3_body">What are the documents required to activate my account?</span>
+                        </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Getting started with EZBills requires you to go through a quick activation process (https://dashboard.ezbills.com/activate) where our Onboarding team verifies the validity of your business. 
+                            The required documents vary depending on the business entity type:
+                            
+                            Individual (unregistered business): 
+                            Government-issued ID (one (1) primary ID or three (3) secondary IDs)
+                            Sole Proprietor: 
+                            DTI Registration
+                            Government-issued ID of the person registered with the DTI (one (1) primary ID or three (3) secondary IDs)
+                            Partnership: 
+                            SEC Certificate of Registration
+                            Articles of Partnership
+                            Partner’s Resolution to designate the authorized person to transact with Paymongo and the bank account where your payouts will be deposited
+                            Government-issued ID of any of the partners (one (1) primary ID or three (3) secondary IDs)
+                            Corporation: 
+                            SEC Certificate of Incorporation
+                            Articles of Incorporation and By-Laws (all pages)
+                            Latest General Information Sheet (GIS) submitted to and received by the SEC (all pages)
+                            Government-issued ID of any of the incorporators (one (1) primary ID or three (3) secondary IDs)
+                            Government issued-ID of person authorized to transact with PayMongo (one (1) primary ID or three (3) secondary IDs
+                            Duly notarized Secretary’s Certificate*
+                            *The duly notarized Secretary’s Certificate should contain the board resolution confirming the name of the person authorized to transact with EZbills well as the corporate bank account of the corporation. (A template can be provided upon request.)
+                            *The duly notarized Secretary’s Certificate will not be required for corporations established under the One Person Corporation. 
+                            <ul class="mt-3">
+                                <li>For reference, the following is a list of valid primary IDs:
+                                    Driver’s license
+                                    SSS ID/UMID ID
+                                    Professional Regulation Commission (PRC) ID
+                                    Firearm license
+                                    Philippine Passport
+                                    PhilSys National ID or ePhilID
+                                    For foreign nationals: Passport and Alien Certificate of Registration (ACR)
+                                    The following is a list of valid secondary IDs:
+                                    NBI clearance
+                                    Police clearance
+                                    PhilHealth ID
+                                    TIN ID
+                                    Pag-ibig ID (Digitized)
+                                    Postal ID (Digitized)
+                                    Barangay clearance
+                                    Voter’s ID</li>
+                                <li>sAll documents will be submitted online on the activation page of the EZ billsdashboard: https://dashboard.ezbills.com/activate. Please take note that you can only accept payments via EZbills once you have been activated.
+                                    After you have successfully submitted your request for account activation, it typically takes 7 business days for our onboarding team to review your application.
+                                    Our onboarding team will send you an email once your account has been approved or if they have any follow-up questions, such as missing documents or clarifications about your business. </li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 px-0">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item ">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed border" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <span class="acc3_body">.What are the transaction fees, rates, and charges?</span>
+                        </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            We want to make it as easy as possible for businesses to get started with EZ Bills! We do not charge any set-up fees or monthly fees to use our service. 
+                            
+                            We only go by a per-transaction rate with the following:
+                            
+                            Card payments
+                            
+                            
+                            All payments from non-Philippine issued cards will be charged an additional 1% cross-border fee. In the dashboard, we will be adding clear indicators as to the origin of the payment and, if any, the corresponding cross-border fee associated with it.
+                            
+                            E-wallets
+                            
+                            Online Banking
+                        
+                            You will only get charged when you make a successful transaction with us.
+                            Check out our pricing page for the pricing calculator 
+                            Did this answer your question? </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-6 px-0">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item ">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed border" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseOne">
+                            What are the currencies currently supported by EZbills?
+                        </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Currently, we can only process payments made in Philippine Peso (PHP) since the focus are on businesses located in the Philippines. Your business will still be able to accept payments from outside the Philippines, however the amount paid will be subject to the conversion rates of your customer’s issuing bank abroad. This to be paid on the side of the customer.  Support for other currencies such as USD, EUR, etc. will come in the future. We will keep you updated.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 px-0">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item ">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed border" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseOne">
+                            How to identify a possible fraudulent transaction?
+                        </button>
+                        </h2>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">An online business comes with its own set of challenges in mitigating risks associated with fraud. As a merchant, you may have more relevant information about your customers and their activities. By paying close attention and continuously monitoring your transactions, you can identify possible fraudulent transactions at an early stage that will help mitigate risks and avoid business losses.
+
+                            Here are some tips that may help you check if the transaction is possibly fraudulent:
+                            Suspicious Contact Information
+                            You might come across certain transactions that are using fake e-mail addresses, phone numbers, or addresses. In that case, there is a high possibility that these transactions are fraudulent.
+                            
+                            Expedited shipping requests
+                            For merchants offering expedited shipping, fraudsters may avail of this option to acquire the product or service provided as quickly as possible to avoid being under the radar due to fraudulent means.
+                            
+                            Shipping and Billing Mismatch
+                            Fraudsters may use different shipping addresses to pass verification checks while ensuring that they will get the product. Mapping the distances between the two addresses may help you decide if the order is possibly fraudulent. However, keep in mind that this may also be the case for legitimate transactions, like purchasing a gift.
+                            
+                            Surge in transactions
+                            An unexplained surge in transactions may be an indicator that card testing happened on your website. Verifying successful orders before shipping out can help prevent incurring losses in your business. 
+                            Receiving a Fraud and Risk email alert from EZBills
+                            Email alerts from risk@ezbills.com might indicate that there could be a fraudulent activity occurring in your business. These alerts request you to look closely into the transactions being inquired and to provide supporting documents to the Fraud and Risk Team about certain transactions of your business. This will not only help you identify possible fraud, but could also help EZbills understand more about your business and your customers.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ACCORDION END -->
+    </section>
+</div>
+<br>
+<br>
+<br>
+
+<!-- SECTION TWO WITH ACCORDION END-->
+ <!--Start of Footer-->
+ <div class="container-fluid text-center text-white py-2" style="background-color: rgb(54, 225, 82)">
+    <div class="row mt-3">
+        <div class="col-md">
+            <h4 class="mb-0" id="footer1">EZ Bills</h4>
+            <button class="btn btn-lg" style="font-size:36px;"><i class="bi bi-facebook text-white"></i></button>
+            <button class="btn btn-lg" style="font-size:36px;"><i class="bi bi-twitter text-white"></i></button>
+            <button class="btn btn-lg" style="font-size:36px;"><i class="bi bi-instagram text-white"></i> </button>
+            <button class="btn btn-lg" style="font-size:36px;"><i class="bi bi-discord text-white"></i> </button>
+            <button class="btn btn-lg" style="font-size:36px;"><i class="bi bi-linkedin text-white"></i> </button>
+            <div class="row">
+                <i class="bi bi-facebook"> KODEGO | WD20P-SOFTWARE CHASER | GROUP 5 </i>
+            </div>
+        </div>
+        
+            </div>
+            <!--Schedule-->
+            <div class="row">
+                <div class="col-md gy-1">
+                    <h3> Office Hours </h3>
+                    <a id="footer3">Monday to Friday</a><br>
+                    <a id="footer3">8:00 am to 5:00 pm </a><br>
+                    <a id="footer3">Saturday</a><br>
+                    <a id="footer3">8:00 am to 12:00 pm </a>
+                </div>
+                <div class="col-md gy-2">
+                    <h5 id="footer3">Address</h5>
+                    <h5 id="footer3">San Antonio Makati City</h5>
+                    <p id="footer3">Contact No: 0977-746-8623</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<!--End of Footer-->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+crossorigin="anonymous"></script>
+
+
+
+
+</html>
